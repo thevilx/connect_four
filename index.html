@@ -8,9 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h3>The current player is : Player <span id="current-player">1</span></h3>
+    <h3>The Current Player Is : <span id="player_color" style="color:red">Player <span id="current-player"></span></span></h3>
     <h3 id="results"></h3>
-    <div id="main"></div>
+    <div id="main" ></div>
+
+    <div class="setting">
+        <label>Row Count : </label>
+        <input name="row_size" id="row_size" type="number" value="12">
+        <label>Column Count : </label>
+        <input name="col_size" id="col_size" type="number" value="7">
+        <button id="remake_game" onclick="remakeGame()">Remake</button>
+    </div>
+
 </body>
 <script src="app.js"></script>
 </html>

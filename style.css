@@ -1,7 +1,7 @@
 .grid {
     border: 2px solid #000;
-    height: 280px;
-    width: 280px;
+    /* height: 280px;
+    width: 280px; */
     display: flex;
     flex-wrap: wrap;
 }
@@ -19,4 +19,12 @@
 
 .player-two {
     background-color:blue;
+}
+
+.setting {
+    margin-top: 30px;
+}
+
+.setting input {
+    margin-right: 10px;
 }
